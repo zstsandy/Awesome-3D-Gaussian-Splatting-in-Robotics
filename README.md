@@ -7,29 +7,30 @@
 
 ## 🏠 Overview
   - [Application of 3DGS in Robotics](#application-of-3dgs-in-robotics)
-    - [Scene Understanding](#scene-understanding)
-      - [Reconstruction](#reconstruction)
+    - Scene Understanding
+      - Reconstruction
         - [Static Reconstruction](#static-reconstruction)
         - [Dynamic Reconstruction](#dynamic-reconstruction)
-      - [Segmentation & Editing](#segmentation-rditing)
+      - Segmentation & Editing
         - [Scene Segmentation](#scene-segmentation)
         - [Scene Editing](#scene-editing)
-      - [SLAM](#slam)
+      - SLAM
         - [Visual SLAM](#visual-slam)
         - [Semantic SLAM](#semantic-slam)
         - [Multi-sensor Fusion SLAM](#multi-sensor-fusion-slam)
-    - [Scene Interaction](#scene-interaction)
+    - Scene Interaction
       - [Manipulation](#manipulation)
-      - [Navigation](#navigation)
+      - Navigation
         - [Localization](#localization)
         - [Path Planning](#path-planning)
   - [Advance of 3DGS in Robotics](#advance-of-3dgs-in-robotics)
-    - [Adaptability](#adaptability)
+    - Adaptability
       - [Large-Scale](#large-scale)
       - [Motion-Blurred](#motion-blurred)
-    - [Efficiency](#efficiency)
+    - Efficiency
       - [Few-Shot](#few-shot)
       - [RMemory Efficiency](#memory-efficiency)
+  - [Datasets of Robotic Application](#datasets-of-robotic-application)
 
 
 ## Application of 3DGS in Robotics
@@ -230,3 +231,137 @@
 [[Paper](https://arxiv.org/abs/2404.04026)]
 * **MM3DGS-SLAM**: "MM3DGS-SLAM: Multi-modal 3D Gaussian Splatting for SLAM Using Vision, Depth, and Inertial Measurements", *IROS 2024*.
 [[Paper](https://arxiv.org/pdf/2404.00923)] [[Code](https://github.com/VITA-Group/MM3DGS-SLAM)] [[Project Page](https://vita-group.github.io/MM3DGS-SLAM/)]
+
+### Manipulation
+* **GaussianGrasper**: "GaussianGrasper: 3D Language Gaussian Splatting for Open-vocabulary Robotic Grasping", *RAL 2024*.
+[[Paper](https://arxiv.org/abs/2403.09637)] [[Code](https://github.com/MrSecant/GaussianGrasper)] [[Project Page](https://mrsecant.github.io/GaussianGrasper/)]
+* **Splat-MOVER**: "Splat-MOVER: Multi-Stage, Open-Vocabulary Robotic Manipulation via Editable Gaussian Splatting", *CoRL 2024*.
+[[Paper](https://arxiv.org/abs/2405.04378)] [[Code](https://github.com/StanfordMSL/Splat-MOVER)] [[Project Page](https://splatmover.github.io/)]
+* **ManiGaussian**: "ManiGaussian: Dynamic Gaussian Splatting for Multi-task Robotic Manipulation", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2403.08321)] [[Code](https://github.com/GuanxingLu/ManiGaussian)] [[Project Page](https://guanxinglu.github.io/ManiGaussian/)]
+* "Object-Aware Gaussian Splatting for Robotic Manipulation", *ICRA 2024 Workshop*.
+[[Paper](https://openreview.net/pdf?id=gdRI43hDgo)] [[Project Page](https://object-aware-gaussian.github.io/)]
+
+### Localization
+* **iComMa**: "iComMa: Inverting 3D Gaussian Splatting for Camera Pose Estimation via Comparing and Matching", *arxiv*.
+[[Paper](https://arxiv.org/abs/2312.09031)] [[Code](https://github.com/YuanSun-XJTU/iComMa)] 
+* **COGS**: "A Construct-Optimize Approach to Sparse View Synthesis without Camera Pose", *SIGGRAPH 2024*.
+[[Paper](https://arxiv.org/abs/2405.03659)] [[Code](https://github.com/RaymondJiangkw/COGS)] [[Project Page](https://raymondjiangkw.github.io/cogs.github.io/)]
+* **3DGS-ReLoc**: "3DGS-ReLoc: 3D Gaussian Splatting for Map Representation and Visual ReLocalization", *arxiv*.
+[[Paper](https://arxiv.org/abs/2403.11367)] 
+* "Enhancing Visual Relocalization with Dense Scene Coordinates Derived from 3D Gaussian Splatting", *ICRA 2024 Workshop*.
+[[Paper](https://openreview.net/pdf?id=QPJGhB1sLm)]
+* **6DGS**: "6DGS: 6D Pose Estimation from a Single Image and a 3D Gaussian Splatting Model", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2407.15484)] [[Code](https://github.com/mbortolon97/6dgs)] [[Project Page](https://mbortolon97.github.io/6dgs/)]
+* **CF-3DG**: "COLMAP-Free 3D Gaussian Splatting", *CVPR 2024*.
+[[Paper](https://arxiv.org/abs/2312.07504)] [[Code](https://github.com/NVlabs/CF-3DGS)] [[Project Page](https://oasisyang.github.io/colmap-free-3dgs/)]
+* **GGRt**: "GGRt: Towards Pose-free Generalizable 3D Gaussian Splatting in Real-time", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2403.10147)] [[Code](https://github.com/lifuguan/GGRt_official)] [[Project Page](https://3d-aigc.github.io/GGRt/)]
+* **GaussReg**: "GaussReg: Fast 3D Registration with Gaussian Splatting", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2407.05254)] [[Code](https://github.com/GAP-LAB-CUHK-SZ/GaussReg)] [[Project Page](https://jiahao620.github.io/gaussreg/)]
+* **GSLoc**: "GSLoc: Efficient Camera Pose Refinement via 3D Gaussian Splatting", *arxiv*.
+[[Paper](https://arxiv.org/abs/2408.11085)] 
+
+### Path Planning
+* **GS-Planner**: "GS-Planner: A Gaussian-Splatting-based Planning Framework for Active High-Fidelity Reconstruction", *IROS 2024*.
+[[Paper](https://arxiv.org/abs/2405.10142)]
+* **GaussNav**: "GaussNav: Gaussian Splatting for Visual Navigation", *arxiv*.
+[[Paper](https://arxiv.org/abs/2405.10142)] [[Code](https://github.com/XiaohanLei/GaussNav)] [[Project Page](https://xiaohanlei.github.io/projects/GaussNav/)]
+* **Splat-Nav**: "Splat-Nav: Safe Real-Time Robot Navigation in Gaussian Splatting Maps", *arxiv*.
+[[Paper](https://arxiv.org/abs/2403.02751)]
+* **Beyond Uncertainty**: "Beyond Uncertainty: Risk-Aware Active View Acquisition for Safe Robot Navigation and 3D Scene Understanding with FisherRF", *arxiv*.
+[[Paper](https://arxiv.org/abs/2403.11396)]
+
+## Advance of 3DGS in Robotics
+### Motion-Blurred
+* **DeblurGS**: "DeblurGS: Gaussian Splatting for Camera Motion Blur", *arxiv*.
+[[Paper](https://arxiv.org/abs/2404.11358)]
+* **BAD-Gaussians**: "BAD-Gaussians: Bundle Adjusted Deblur Gaussian Splatting", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2403.11831)] [[Code](https://github.com/WU-CVGL/BAD-Gaussians)] 
+* **Deblur-GS**: "Deblur-GS: 3D Gaussian Splatting from Camera Motion Blurred Images", *I3D 2024*.
+[[Paper](https://dl.acm.org/doi/10.1145/3651301)] [[Code](https://github.com/Chaphlagical/Deblur-GS)] [[Project Page](https://chaphlagical.icu/Deblur-GS/)]
+* **RGS**: "Robust Gaussian Splatting", *arxiv*.
+[[Paper](https://arxiv.org/abs/2404.04211)] 
+* **3DGS-deblur**: "Gaussian Splatting on the Move: Blur and Rolling Shutter Compensation for Natural Camera Motion", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2403.13327)] [[Code](https://github.com/SpectacularAI/3dgs-deblur)] [Project Page](https://spectacularai.github.io/3dgs-deblur/)]
+* **CRiM-GS**: "CRiM-GS: Continuous Rigid Motion-Aware Gaussian Splatting from Motion-Blurred Images", *arxiv*.
+[[Paper](https://arxiv.org/abs/2407.03923)] [[Project Page](https://jho-yonsei.github.io/CRiM-Gaussian/)]
+* **BAGS**: "BAGS: Blur Agnostic Gaussian Splatting through Multi-Scale Kernel Modeling", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2403.04926)] [[Code](https://github.com/snldmt/BAGS)] [[Project Page](https://nwang43jhu.github.io/BAGS/)]
+
+### Large-Scale
+* **DoGaussian**: "DoGaussian: Distributed-Oriented Gaussian Splatting for Large-Scale 3D Reconstruction Via Gaussian Consensus", *NeurIPS 2024*.
+[[Paper](https://arxiv.org/abs/2405.13943)] [[Code](https://github.com/AIBluefisher/DOGS)] [[Project Page](https://aibluefisher.github.io/DOGS/)]
+* **Octree-GS**: "Octree-GS: Towards Consistent Real-time Rendering with LOD-Structured 3D Gaussians", *arxiv*.
+[[Paper](https://arxiv.org/abs/2403.17898)] [[Code](https://github.com/city-super/Octree-GS)] [[Project Page](https://city-super.github.io/octree-gs/)]
+* **CityGaussian**: "CityGaussian: Real-time High-quality Large-Scale Scene Rendering with Gaussians", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2404.01133)] [[Code](https://github.com/DekuLiuTesla/CityGaussian)] [[Project Page](https://dekuliutesla.github.io/citygs/)]
+* **H3DGS**: "A Hierarchical 3D Gaussian Representation for Real-Time Rendering of Very Large Datasets", *SIGGRAPH 2024*.
+[[Paper](https://arxiv.org/abs/2406.12080)] [[Code](https://github.com/graphdeco-inria/hierarchical-3d-gaussians)] [[Project Page](https://repo-sam.inria.fr/fungraph/hierarchical-3d-gaussians/)]
+* **Fed3DGS**: "Fed3DGS: Scalable 3D Gaussian Splatting with Federated Learning", *arxiv*.
+[[Paper](https://arxiv.org/abs/2403.11460)] [[Code](https://github.com/DensoITLab/Fed3DGS)] 
+* **PyGS**: "PyGS: Large-scale Scene Representation with Pyramidal 3D Gaussian Splatting", *arxiv*.
+[[Paper](https://arxiv.org/abs/2405.16829)] 
+* **VastGaussian**: "VastGaussian: Vast 3D Gaussians for Large Scene Reconstruction", *CVPR 2024*.
+[[Paper](https://arxiv.org/abs/2402.17427)] [[Code](https://github.com/kangpeilun/VastGaussian)] 
+* **GaussCity**: "GaussCity: Real-time Rendering of Large-scale Urban Scenes with 3D Gaussians", *arxiv*.
+[[Paper](https://arxiv.org/abs/2403.11367)]
+
+### Memery Efficiency
+* **Compact-3DGS**: "Compact 3D Gaussian Representation for Radiance Field", *CVPR 2024*.
+[[Paper](https://arxiv.org/abs/2311.13681)] [[Code](https://github.com/maincold2/Compact-3DGS)] [[Project Page](https://maincold2.github.io/c3dgs/)]
+* **CompGS**: "CompGS: Smaller and Faster Gaussian Splatting with Vector Quantization", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2311.18159)] [[Code](https://github.com/UCDvision/compact3d)] 
+* **Scaffold-GS**: "Scaffold-GS: Structured 3D Gaussians for View-Adaptive Rendering", *CVPR 2024*.
+[[Paper](https://arxiv.org/abs/2312.00109)] [[Code](https://github.com/city-super/Scaffold-GS)] [[Project Page](https://city-super.github.io/scaffold-gs/)]
+* **F-3DGS**: "F-3DGS: Factorized Coordinates and Representations for 3D Gaussian Splatting", *ACM MM 2024*.
+[[Paper](https://arxiv.org/abs/2405.17083)] [[Code](https://github.com/Xiangyu1Sun/Factorize-3DGS)] [[Project Page](https://xiangyu1sun.github.io/Factorize-3DGS/)]
+* **RDO-Gaussian**: "End-to-End Rate-Distortion Optimized 3D Gaussian Representation", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2406.01597)]
+* **LightGaussian**: "LightGaussian: Unbounded 3D Gaussian Compression with 15x Reduction and 200+ FPS", *NeurIPS 2024*.
+[[Paper](https://arxiv.org/abs/2311.17245)] [[Code](https://github.com/VITA-Group/LightGaussian)] [[Project Page](https://lightgaussian.github.io/)]
+* **RadSplat**: "RadSplat: Radiance Field-Informed Gaussian Splatting for Robust Real-Time Rendering with 900+ FPS", *arxiv*.
+[[Paper](https://arxiv.org/abs/2403.13806)] [[Project Page](https://m-niemeyer.github.io/radsplat/)]
+* **EfficientGS**: "EfficientGS: Streamlining Gaussian Splatting for Large-Scale High-Resolution Scene Representation", *arxiv*.
+[[Paper](https://arxiv.org/abs/2404.12777)]
+* **PUP 3D-GS**: "PUP 3D-GS: Principled Uncertainty Pruning for 3D Gaussian Splatting", *arxiv*.
+[[Paper](https://arxiv.org/abs/2406.10219)] [[Code](https://github.com/j-alex-hanson/gaussian-splatting-pup)] [[Project Page](https://pup3dgs.github.io/)]
+* **Reduced 3DGS**: "Reducing the Memory Footprint of 3D Gaussian Splatting", *I3D 2024*.
+[[Paper](https://arxiv.org/abs/2406.17074)] [[Code](https://github.com/graphdeco-inria/reduced-3dgs)] [[Project Page](https://repo-sam.inria.fr/fungraph/reduced_3dgs/)]
+* **RN-Gaussian**: "On Reducing the Number of Gaussians for Radiance Field Real-Time Rendering", *ECTI DAMT & NCON*.
+[[Paper](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10480048)] 
+* **Taming 3DGS**: "Taming 3DGS: High-Quality Radiance Fields with Limited Resources", *SIGGRAPH Asia 2024*.
+[[Paper](https://arxiv.org/abs/2406.15643)] [[Code](https://github.com/humansensinglab/taming-3dgs)] [Project Page](https://humansensinglab.github.io/taming-3dgs/)]
+* **C3DGS**: "Compressed 3D Gaussian Splatting for Accelerated Novel View Synthesis", *CVPR 2024*.
+[[Paper](https://arxiv.org/abs/2401.02436)] [[Code](https://github.com/KeKsBoTer/c3dgs)] [[Project Page](https://keksboter.github.io/c3dgs/)]
+* **HAC**: "HAC: Hash-grid Assisted Context for 3D Gaussian Splatting Compression", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2403.14530)] [[Code](https://github.com/YihangChen-ee/HAC)] [[Project Page](https://yihangchen-ee.github.io/project_hac/)]
+* **CompGS**: "CompGS: Efficient 3D Scene Representation via Compressed Gaussian Splatting", *ACM MM 2024*.
+[[Paper](https://arxiv.org/abs/2404.09458)] [[Code](https://github.com/LiuXiangrui/CompGS)] 
+* **ContextGS**: "ContextGS: Compact 3D Gaussian Splatting with Anchor Level Context Model", *NeurIPS 2024*.
+[[Paper](https://arxiv.org/abs/2405.20721)] [[Code](https://github.com/wyf0912/ContextGS)]
+* **SOGS**: "Compact 3D Scene Representation via Self-Organizing Gaussian Grids", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2312.13299)] [[Code](https://github.com/fraunhoferhhi/Self-Organizing-Gaussians)] [[Project Page](https://fraunhoferhhi.github.io/Self-Organizing-Gaussians/)]
+* **FSGS**: "FSGS: Real-Time Few-shot View Synthesis using Gaussian Splatting", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2312.00451)] [[Code](https://github.com/VITA-Group/FSGS)] [[Project Page](https://zehaozhu.github.io/FSGS/)]
+
+
+### Few-shot
+* **DepthRegGS**: "Depth-Regularized Optimization for 3D Gaussian Splatting in Few-Shot Images", *CVPRW 2024*.
+[[Paper](https://arxiv.org/abs/2311.13398)] [[Code](https://github.com/robot0321/DepthRegularizedGS)] [[Project Page](https://robot0321.github.io/DepthRegGS/index.html)]
+* **CoherentGS**: "CoherentGS: Sparse Novel View Synthesis with Coherent 3D Gaussians", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2403.11367)] [[Code](https://github.com/avinashpaliwal/CoherentGS)] [[Project Page](https://people.engr.tamu.edu/nimak/Papers/CoherentGS/index.html)]
+* **MVSplat**: "MVSplat: Efficient 3D Gaussian Splatting from Sparse Multi-View Images", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2403.14627)] [[Code](https://github.com/donydchen/mvsplat)] [[Project Page](https://donydchen.github.io/mvsplat/)]
+* **SparseGS**: "SparseGS: Real-Time 360° Sparse View Synthesis using Gaussian Splatting", *arxiv*.
+[[Paper](https://arxiv.org/abs/2312.00206)] [[Code](https://github.com/ForMyCat/SparseGS)] [[Project Page](https://formycat.github.io/SparseGS-Real-Time-360-Sparse-View-Synthesis-using-Gaussian-Splatting/)]
+* **LoopSparseGS**: "LoopSparseGS: Loop Based Sparse-View Friendly Gaussian Splatting", *arxiv*.
+[[Paper](https://arxiv.org/abs/2408.00254)] [[Code](https://github.com/pcl3dv/LoopSparseG)] [[Project Page](https://zhenybao.github.io/LoopSparseGS/)]
+* **CoR-GS**: "CoR-GS: Sparse-View 3D Gaussian Splatting via Co-Regularization", *ECCV 2024*.
+[[Paper](https://arxiv.org/abs/2405.12110)] [[Code](https://github.com/jiaw-z/CoR-GS)] [[Project Page](https://jiaw-z.github.io/CoR-GS/)]
+* **DNGaussian**: "DNGaussian: Optimizing Sparse-View 3D Gaussian Radiance Fields with Global-Local Depth Normalization", *arxiv*.
+[[Paper](https://arxiv.org/abs/2403.06912)] [[Code](https://github.com/Fictionarry/DNGaussian)] [[Project Page](https://fictionarry.github.io/DNGaussian/)]
+* **InstantSplat**: "InstantSplat: Sparse-view SfM-free Gaussian Splatting in Seconds", *arxiv*.
+[[Paper](https://arxiv.org/abs/2403.20309)] [[Code](https://github.com/NVlabs/InstantSplat)] [[Project Page](https://instantsplat.github.io/)]
+
+
