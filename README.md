@@ -49,6 +49,8 @@
 * **Wild-GS**: "Wild-GS: Real-Time Novel View Synthesis from Unconstrained Photo Collections", *NeurIPS 2024*. [[Paper](https://arxiv.org/abs/2406.10373.pdf)] [[Code](https://github.com/XuJiacong/Wild-GS)] 
 * **WildGaussians**: "WildGaussians: 3D Gaussian Splatting in the Wild", *NeurIPS 2024*. [[Paper](https://arxiv.org/abs/2407.08447.pdf)] [[Code](https://github.com/jkulhanek/wild-gaussians/)] [[Project Page](https://wild-gaussians.github.io//)] 
 * **DHGS**: "DHGS: Decoupled Hybrid Gaussian Splatting for Driving Scene", *arXiv*. [[Paper](https://arxiv.org/abs/2407.16600.pdf)] [[Project Page](https://ironbrotherstyle.github.io/dhgs_web///)] 
+* **ActiveSplat**: "ActiveSplat: High-Fidelity Scene Reconstruction through Active Gaussian Splatting", *arXiv*.  
+  [[Paper](https://li-yuetao.github.io/ActiveSplat/ActiveSplat.pdf)] [[Project Page](https://li-yuetao.github.io/ActiveSplat/)]  
 
 ### Dynamic Reconstruction
 * **PVG**: "Periodic Vibration Gaussian: Dynamic Urban Scene Reconstruction and Real-time Rendering", *arXiv*. [[Paper](https://arxiv.org/pdf/2311.18561)] [[Code](https://github.com/fudan-zvg/PVG)] [[Project Page](https://fudan-zvg.github.io/PVG/)]
@@ -265,6 +267,14 @@
 ### Path Planning
 * **GS-Planner**: "GS-Planner: A Gaussian-Splatting-based Planning Framework for Active High-Fidelity Reconstruction", *IROS 2024*.
 [[Paper](https://arxiv.org/abs/2405.10142)]
+* **HGS-Planner**: "HGS-Planner: Hierarchical Planning Framework for Active Scene Reconstruction Using 3D Gaussian Splatting", *arXiv*.  
+  [[Paper](https://arxiv.org/pdf/2409.17624)]  
+* **SAFER-Splat**: "SAFER-Splat: A Control Barrier Function for Safe Navigation with Online Gaussian Splatting Maps", *arXiv*.  
+  [[Paper](https://arxiv.org/pdf/2409.09868)] [[Project Page](https://chengine.github.io/safer-splat/)]  
+* **Let’s Make a Splan**: "Let’s Make a Splan: Risk-Aware Trajectory Optimization in a Normalized Gaussian Splat", *arXiv*.  
+  [[Paper](https://arxiv.org/pdf/2409.16915)] [[Project Page](https://roahmlab.github.io/splanning/)]  
+* **RT-GuIDE**: "RT-GuIDE: Real-Time Gaussian Splatting for Information-Driven Exploration", *arXiv*.  
+  [[Paper](https://arxiv.org/pdf/2409.18122)] [[Project Page](https://tyuezhan.github.io/RT_GuIDE/)]  
 * **GaussNav**: "GaussNav: Gaussian Splatting for Visual Navigation", *arxiv*.
 [[Paper](https://arxiv.org/abs/2405.10142)] [[Code](https://github.com/XiaohanLei/GaussNav)] [[Project Page](https://xiaohanlei.github.io/projects/GaussNav/)]
 * **Splat-Nav**: "Splat-Nav: Safe Real-Time Robot Navigation in Gaussian Splatting Maps", *arxiv*.
